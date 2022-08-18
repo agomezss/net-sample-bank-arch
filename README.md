@@ -1,6 +1,6 @@
 What is Bank API
 =====================
-Is a fictional digital bank project written in .NET Core
+Is a fictional digital bank project written in .NET 6
 
 ## How to use:
 - You will need Visual Studio 2019 and the .NET Core SDK.
@@ -12,10 +12,10 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 
 ## Technologies implemented:
 
-- ASP.NET Core 2.2 (with .NET Core)
+- .NET 6
 - ASP.NET WebApi Core
-- ASP.NET Identity Core
-- Entity Framework Core 2.0
+- ASP.NET Identity
+- Entity Framework Core 6
 - .NET Core Native DI
 - AutoMapper
 - FluentValidator
