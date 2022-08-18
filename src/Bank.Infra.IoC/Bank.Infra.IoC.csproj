@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>Bank.Infra.CrossCutting.IoC</AssemblyName>
+    <PackageId>Bank.Infra.CrossCutting.IoC</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bank.Services.Authentication\Bank.Services.Authentication.csproj" />
+    <ProjectReference Include="..\Bank.Services.Onboarding\Bank.Services.Onboarding.csproj" />
+    <ProjectReference Include="..\Bank.Infra.Messaging\Bank.Infra.Messaging.csproj" />
+    <ProjectReference Include="..\Bank.Infra.Data\Bank.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
